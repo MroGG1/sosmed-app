@@ -1,0 +1,29 @@
+.about-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.about-section {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.about-section h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.about-section ul {
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+.about-section li {
+  margin-bottom: 8px;
+}

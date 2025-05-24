@@ -1,0 +1,33 @@
+header {
+  background-color: #f0bb78;
+  view-transition-name: main-header-transition;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 100%;
+}
+
+.main-header {
+  min-height: 90px;
+  padding-block: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.brand-name {
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding: 12px 8px;
+  min-height: 44px;
+  box-sizing: border-box;
+  line-height: normal
+}
+
+body.auth-active header {
+  display: none;
+}
